@@ -1,0 +1,9 @@
+# Creating conda environment
+1. conda create -n p3.8
+2. conda activate p3.8
+3. conda install python=3.8
+
+# Installing numpy, pandas and matlplotlib
+conda install numpy matlplotlib
+conda install qt qt5 (for surface plot)
+

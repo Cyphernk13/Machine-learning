@@ -1,0 +1,10 @@
+ Created An Environment named j1.8
+ 1. conda create -n j1.8
+ 2. conda activate j1.8
+ 3. conda install julia=1.8
+
+adding plots pkg to terminal
+- using Pkg
+- Pkg.add("Plots")
+
+We will save all the plots in the pictures folder
