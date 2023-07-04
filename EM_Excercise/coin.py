@@ -60,7 +60,8 @@ def coin_likelihood(roll, bias):
 
 
 # Coin toss sequences and initial theta values
-x = [ "HTTTHHTHTH", "HHHHTHHHHH", "HTHHHHHTHH", "HTHTTTHHTT", "THHHTHHHTH" ]
+# x = [ "HTTTHHTHTH", "HHHHTHHHHH", "HTHHHHHTHH", "HTHTTTHHTT", "THHHTHHHTH" ] //example
+x = ['HHHHHTTTTTHHH', 'HHTHHTHTHTHHT', 'HHTHTTHTHTHTT', 'TTTHTTHTHTHTT', 'THTHTTHTHTHHH']
 thetas, _ = coin_em(rolls=x, theta_A=0.6, theta_B=0.5, maxiter=6)
 
 
